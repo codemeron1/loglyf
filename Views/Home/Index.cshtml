@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="loglife-div-image">
+   <div id="loglife-text">
+       <center>
+            <p style="font-size: 100px; font-family:'Times New Roman', Times, serif;"> LogLife</p>
+            <h3 style="font-size: 50px; font-family:'Times New Roman', Times, serif;">We care for your safety.</h3>
+       </center> 
+   </div>
+</div>
+<br />
+<br />
+
+<div class="d-flex" style="margin: auto; width: 80%;">
+    <div id="getstarted-div" class="index-menu">
+    <center>
+        <i class="bi bi-facebook"></i>
+        <p class="label-div">Get Started</p>
+        <br />
+        <p class="label-context">Start going places with the knowledge that it is safe to be there. Get started in Creating your own account to keep track of where you are
+            and how safe it is.
+        </p>
+     </center>
+    </div> 
+    <div id="event-div" class="index-menu">
+        <center>
+        <p class="label-div">Event</p>
+        <br />
+        <p class="label-context">Create your own Event where you keep track everyone participating and monitor unsafe participant.</p>
+        <br />
+        <br />
+        <a asp-controller="Myevents" asp-action="Index" >Create Event</a>
+        </center>
+    </div>
+
+    <div id="aboutus-div" class="index-menu">
+        <center>
+        <p class="label-div">About Us</p>
+        <br />
+        <p class="label-context">Know more about the developer and the purpose of this web application in contact tracing and 
+            prevent Covid-19 from spreading</p>
+            <br />
+        <a asp-controller="Home" asp-action="Aboutus" >About us</a>
+        </center>
+    </div>
+</div>
+
+

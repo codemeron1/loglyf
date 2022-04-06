@@ -1,0 +1,35 @@
+﻿@model IEnumerable<LogLife11.Models.Myevent>
+
+@{
+    ViewData["Title"] = "Events";
+}
+<center>
+<h1 class="adjust-post" style="margin-top: 40px; font-family:'Times New Roman', Times, serif;">Events</h1>
+</center>
+<p class="adjust-post">
+    <a asp-action="Create" >Create Event</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameEvent)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameEvent)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

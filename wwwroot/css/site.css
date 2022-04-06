@@ -1,0 +1,154 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    margin-bottom: 60px;
+}
+
+#form-register {
+    position: center;
+    width: 500px;
+    margin-left: 540px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid;
+    border-color: brown;
+    border-radius: 20px;
+}
+
+#registerSubmit {
+    margin-bottom: 50px;
+    background-color: brown;
+}
+
+#register-label {
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+#login-form {
+    border: solid;
+    border-radius: 20px;
+    border-color: brown;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+#login-image {
+    margin-top: 0;
+    height: 100px;
+    width: 100px;
+    margin-left: 140px;
+}
+
+#register-image {
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+#loglife-div-image {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 120px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/home_div_bg.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+   margin: 0;
+   padding: 0;
+}
+
+#loglife-text{
+    color: white;
+    font-size: large;
+}
+
+.index-menu {
+    border: solid;
+    border-radius: 20px;
+    border-color: brown;
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 139px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#getstarted-div{
+    
+}
+
+#event-div {
+    
+}
+
+#aboutus-div {
+    border: solid;
+    border-radius: 20px;
+    border-color: brown;
+    float: right;
+    width: 300px;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-bottom: 100px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.label-div{
+    position: center;
+    font-size:32px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.index-btn{
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+}
+
+#nav-bar-layout {
+    background-color: #101010;
+}
+
+.table{
+    margin-left: 100px;
+}
+
+.adjust-post{
+    margin-left: 100px;
+}
+
+
+#div-create{
+    margin-left: 100px;
+}
+
+#back-list-create{
+    margin-left: 100px;
+}
+
+/* Footer */
+.footer {
+    
+}
